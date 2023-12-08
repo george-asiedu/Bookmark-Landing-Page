@@ -6,7 +6,9 @@
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
   "scripts": {
     "start": "lite-server"
   },
