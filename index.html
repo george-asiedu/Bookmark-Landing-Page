@@ -9,9 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        
-    </div>
     <header class="flex overflow-hidden py-7 px-28 shadow-md w-full items-center justify-between">
         <img src="images/logo-bookmark.svg" alt="logo-image">
         <nav class="flex items-center uppercase">
@@ -32,18 +29,20 @@
 
     <div class="px-28 py-20 w-full flex items-center justify-between ">
         <div class="left">
-            <h1 class="text-darkBlue text-5xl mb-8 font-medium">A Simple Bookmark <br> Manager</h1>
+            <h1 class="text-darkBlue text-5xl mb-6 font-medium">A Simple Bookmark <br> Manager</h1>
             <p class="text-lg text-grayishBlue mb-8">
                 A clean and simple interface to organize your favorite <br>
                 websites. Open a new browser tab and see your sites load <br>
                 instantly. try it for free.
             </p>
-            <div class="flex">
-                <button type="button" class="bg-softBlue rounded-md py-3 text-white px-8 font-medium text-sm shadow-md">Get it on Chrome</button>
+            <div class="flex items-center gap-5">
+                <button type="button" class="bg-softBlue rounded-md py-3 text-white px-8 font-medium text-sm shadow-md hover:bg-white hover:border-2 hover:text-softBlue hover:border-softBlue">Get it on Chrome</button>
+                <button type="button" class="bg-stone-100 rounded-md py-3 text-darkBlue px-8 font-medium text-sm shadow-md hover:bg-white hover:border-2 hover:border-darkBlue">Get it on Firefox</button>
             </div>
         </div>
-        <div class="right">
-            <img src="images/illustration-hero.svg" alt="">
+        <div class="relative">
+            <img src="images/illustration-hero.svg" class="z-10" alt="">
+            <div class="absolute top-52 left-64 bg-softBlue h-80 w-full rounded-full -z-10"></div>
         </div>
     </div>
     
