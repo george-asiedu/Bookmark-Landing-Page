@@ -1,18 +1,20 @@
 {
-  "dependencies": {
-    "lite-server": "^2.6.1"
-  },
   "name": "bookmark-landing-page",
-  "description": "",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {
-    "tailwindcss": "^3.3.6"
-  },
   "scripts": {
+    "build": "tailwindcss -i ./style.css -o ./dist/main.css",
+    "watch": "tailwindcss -i ./style.css -o ./dist/main.css --watch",
     "start": "lite-server"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
