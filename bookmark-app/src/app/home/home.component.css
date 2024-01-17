@@ -6,15 +6,23 @@ p {
     color: hsl(229, 8%, 60%);
 }
 
+.btn:hover {
+    border: 2px solid hsl(229, 31%, 21%);
+    background: #fff;
+    color: hsl(229, 31%, 21%);
+}
+
 .btn-blue {
     background: hsl(231, 69%, 60%);
     color: white;
 }
 
-.btn-gray {
-    background: hsl(229, 8%, 60%);
+.btn-blue:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background: #fff;
+    color: hsl(231, 69%, 60%);
 }
 
 .home {
-    padding: 4% 10%;
+    padding: 5% 10%;
 }
