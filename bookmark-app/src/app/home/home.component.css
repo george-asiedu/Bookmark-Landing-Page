@@ -1,5 +1,6 @@
 h1 {
     color: hsl(229, 31%, 21%);
+    /* font-size: 3.5rem; */
 }
 
 p {
@@ -27,7 +28,7 @@ p {
     padding: 5% 8%;
 }
 
-.w-50 img {
+.hero img {
     position: relative;
     left: 13%;
 }
@@ -38,3 +39,27 @@ p {
     top: 45%;
     right: -50%;
 }
+
+/* @media (max-width: 640px) {
+    .home {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 8% auto;
+        background: #ccc6c6;
+        gap: 20px;
+    }
+
+    .home-mob {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+} */
