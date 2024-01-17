@@ -24,5 +24,17 @@ p {
 }
 
 .home {
-    padding: 5% 10%;
+    padding: 5% 8%;
+}
+
+.w-50 img {
+    position: relative;
+    left: 13%;
+}
+
+.box {
+    background: hsl(231, 69%, 60%);
+    height: 60%;
+    top: 45%;
+    right: -50%;
 }
