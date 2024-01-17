@@ -1,0 +1,15 @@
+.tabs {
+    padding: 1% 18%;
+}
+
+.box {
+    background: hsl(231, 69%, 60%);
+    height: 60%;
+    top: 70%;
+    left: -40%;
+}
+
+.btn-blue {
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
