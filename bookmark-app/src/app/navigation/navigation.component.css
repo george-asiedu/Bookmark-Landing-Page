@@ -1,0 +1,24 @@
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: hsl(229, 31%, 21%);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.nav-item a.login {
+    background: hsl(0, 94%, 66%);
+    color: white;
+    padding: 8px 30px;
+}
+
+.nav-item a.login:hover {
+    border: 2px solid hsl(0, 94%, 66%);
+    background: #fff;
+}
+
+.nav-item a:hover {
+    color: hsl(0, 94%, 66%);
+}
