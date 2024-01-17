@@ -1,0 +1,20 @@
+h1 {
+    color: hsl(229, 31%, 21%);
+}
+
+p {
+    color: hsl(229, 8%, 60%);
+}
+
+.btn-blue {
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
+
+.btn-gray {
+    background: hsl(229, 8%, 60%);
+}
+
+.home {
+    padding: 4% 10%;
+}
