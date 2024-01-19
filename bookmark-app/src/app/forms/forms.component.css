@@ -1,0 +1,42 @@
+.forms {
+    background: hsl(231, 69%, 60%);
+    height: 43vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+h4 {
+    letter-spacing: 5px;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+button {
+    width: 30%;
+    background: hsl(0, 94%, 66%);
+    height: 55px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+button:hover {
+    border: 3px solid hsl(0, 94%, 66%);
+    background: white;
+    color: hsl(0, 94%, 66%);
+}
+
+.input {
+    width: 70%;
+}
+
+.label {
+    color: hsl(229, 8%, 60%);
+}
+
+.error {
+    font-size: 18px;
+    margin-top: 4px;
+}

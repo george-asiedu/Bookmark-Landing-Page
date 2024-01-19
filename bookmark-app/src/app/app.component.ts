@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { FeaturesComponent } from './features/features.component';
 import { ExtensionsComponent } from './extensions/extensions.component';
 import { FAQComponent } from './faq/faq.component';
+import { FormsComponent } from './forms/forms.component';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { FAQComponent } from './faq/faq.component';
     HomeComponent, 
     FeaturesComponent, 
     ExtensionsComponent,
-    FAQComponent
+    FAQComponent,
+    FormsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

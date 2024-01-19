@@ -1,0 +1,15 @@
+<div class="container-fluid forms d-flex flex-column align-items-center gap-4 text-center">
+    <h4 class="text-white fs-5 fw-medium text-uppercase">35,000+ already joined</h4>
+    <h1 class="text-white fw-bold lh-base fs-1">Stay up-to-date with what <br> we're doing</h1>
+    
+    <div class="w-25 d-flex gap-3 py-1">
+        <mat-form-field class="input">
+            <mat-label class="label">Enter your email address</mat-label>
+            <input matInput [formControl]="email" required >
+                @if (email.invalid) {
+                <mat-error class="error">{{getErrorMessage()}}</mat-error>
+                }
+        </mat-form-field>
+        <button type="button" class="btn">Contact Us</button>
+    </div>
+</div>
