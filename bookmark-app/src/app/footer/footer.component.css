@@ -4,7 +4,22 @@
     padding: 3% 8%;
 }
 
+.img {
+    cursor: pointer;
+    width: 220px;
+}
+
 .nav-link {
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #fa5757;
+}
+
+/* .nav-link {
     letter-spacing: 2px;
     font-size: 18px;
     cursor: pointer;
@@ -12,4 +27,4 @@
 
 .nav-ilink:hover {
     color: rgb(250, 87, 87);
-}
+} */
