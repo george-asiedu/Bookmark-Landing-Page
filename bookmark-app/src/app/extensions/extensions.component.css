@@ -2,6 +2,14 @@
     width: 250px;
 }
 
+.card:nth-child(2) {
+    top: 15%;
+}
+
+.card:nth-child(3) {
+    top: 28%;
+}
+
 .btn-add {
     width: 90%;
     background: hsl(231, 69%, 60%);
@@ -23,5 +31,7 @@
 .grid-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
 }
