@@ -1,0 +1,27 @@
+.card {
+    width: 250px;
+}
+
+.btn-add {
+    width: 90%;
+    background: hsl(231, 69%, 60%);
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 auto;
+    height: 40px;
+    text-transform: capitalize;
+}
+
+.btn-add:hover {
+    background: white;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+    border-radius: 5px;
+}
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
