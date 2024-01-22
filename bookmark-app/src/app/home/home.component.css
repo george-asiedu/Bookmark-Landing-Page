@@ -1,0 +1,65 @@
+h1 {
+    color: hsl(229, 31%, 21%);
+    /* font-size: 3.5rem; */
+}
+
+p {
+    color: hsl(229, 8%, 60%);
+}
+
+.btn:hover {
+    border: 2px solid hsl(229, 31%, 21%);
+    background: #fff;
+    color: hsl(229, 31%, 21%);
+}
+
+.btn-blue {
+    background: hsl(231, 69%, 60%);
+    color: white;
+}
+
+.btn-blue:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background: #fff;
+    color: hsl(231, 69%, 60%);
+}
+
+.home {
+    padding: 5% 8%;
+}
+
+.hero img {
+    position: relative;
+    left: 13%;
+}
+
+.box {
+    background: hsl(231, 69%, 60%);
+    height: 60%;
+    top: 45%;
+    right: -50%;
+}
+
+/* @media (max-width: 640px) {
+    .home {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 8% auto;
+        background: #ccc6c6;
+        gap: 20px;
+    }
+
+    .home-mob {
+        width: 100%;
+        align-items: center;
+    }
+
+    .hero {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+} */

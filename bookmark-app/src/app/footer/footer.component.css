@@ -1,0 +1,20 @@
+.footer {
+    background: hsl(229, 31%, 21%);
+    height: 8vh;
+    padding: 3% 8%;
+}
+
+.img {
+    cursor: pointer;
+    width: 220px;
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #fa5757;
+}
